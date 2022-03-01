@@ -1,0 +1,15 @@
+﻿<Window x:Class="QRgenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QRgenerator"
+        mc:Ignorable="d"
+        Title="QR Code Generator" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Tlacitko" BorderThickness="2,2,2,2" Content="QR Tlačítko" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" Height="50" Width="222" FontFamily="Comic Sans MS" FontWeight="Bold" Foreground="Black" BorderBrush="Black" OpacityMask="Black" Background="#FF2BFF00" FontSize="18" Click="Tlacitko_Click"/>
+        <TextBlock x:Name="textImput" HorizontalAlignment="Center" Margin="0,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="420" FontFamily="Comic Sans MS" FontSize="16" Text="https://www.youtube.com/watch?v=BPyzqb6vcOg"/>
+        <Image x:Name="obrazekQR" HorizontalAlignment="Left" Height="215" Margin="289,10,0,0" VerticalAlignment="Top" Width="215"/>
+
+    </Grid>
+</Window>
