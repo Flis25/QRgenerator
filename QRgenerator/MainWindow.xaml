@@ -8,7 +8,7 @@
         Title="QR Code Generator" Height="450" Width="800">
     <Grid>
         <Button x:Name="Tlacitko" BorderThickness="2,2,2,2" Content="QR Tlačítko" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" Height="50" Width="222" FontFamily="Comic Sans MS" FontWeight="Bold" Foreground="Black" BorderBrush="Black" OpacityMask="Black" Background="#FF2BFF00" FontSize="18" Click="Tlacitko_Click"/>
-        <TextBlock x:Name="textImput" HorizontalAlignment="Center" Margin="0,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="420" FontFamily="Comic Sans MS" FontSize="16" Text="https://www.youtube.com/watch?v=BPyzqb6vcOg"/>
+        <TextBlock x:Name="textImput" HorizontalAlignment="Center" Margin="0,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="420" FontFamily="Comic Sans MS" FontSize="16" Text="https://youtu.be/AHm5fndM8DQ?t=73"/>
         <Image x:Name="obrazekQR" HorizontalAlignment="Left" Height="215" Margin="289,10,0,0" VerticalAlignment="Top" Width="215"/>
 
     </Grid>

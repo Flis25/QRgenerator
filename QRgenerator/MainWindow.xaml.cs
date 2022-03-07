@@ -41,6 +41,7 @@ namespace QRgenerator
 
             DrawingImage vkladanyObraz = qrKod.GetGraphic(30);
             obrazekQR.Source = vkladanyObraz;
+            //AhoOoj !
 
         }
     }
